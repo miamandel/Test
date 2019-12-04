@@ -1,0 +1,16 @@
+init => neues Repository erstellen
+config => legt Namen des Autors und die E-mail fest, die für ihre Comits verwendet werden sollen
+clone => um ein Repository von einer vorhandenen URL abzurufen
+add => fügt den neuersten Stand einer Datei hinzu
+rm => löscht die Datei aus Arbeitsverzeichnis und führt den Löschvorgang aus
+commit => zeichnet die Datei dauerhaft im Versionsverlauf auf oder erstellt einen Snapshot
+remote => wird verwendet um lokales Repository mit dem Remote-Server zu verbinden
+push => sendet die festgeschriebenen Änderungen des Hauptzweigs an Remote-Repository
+pull => ruft Änderungen auf dem Remote-Server ab und führt sie in Arbeitsverzeichnis zusammen
+status => listet alle Dateien auf die festgeschrieben werden müssen
+diff => zeigt die noch nicht bereitgestellten Dateiunterschiede an
+reset => deaktiviert die Datei behält aber Dateinhalt
+log => es wird der Versionsverlauf für den aktuellen Zweig aufgelistet
+branch => listet alle lokalen Zweige im aktuellen Repository auf
+checkout => wird verwendet um von einem Zweig zu einem anderen zu wechseln
+merge => es wird der Verlauf des angegebenen Zweigs mit dem aktuellen Zweig zusammengeführt
